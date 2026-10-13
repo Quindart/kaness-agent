@@ -2,7 +2,7 @@
 
 ## Goal
 
-Create five standalone Codex skills for recurring iOS React Native and Expo workflows reflected in the supplied notes. Each skill has its own directory and `SKILL.md`, and can be discovered or invoked independently. The skills should give practical guidance without assuming every project uses the same Expo, Yarn, EAS, or CocoaPods setup.
+Create five standalone Codex skills for recurring iOS React Native and Expo workflows reflected in the supplied notes. Each skill has its own directory and `SKILL.md` so it can be copied, reviewed, and maintained independently. The skills should give practical guidance without assuming every project uses the same Expo, Yarn, EAS, or CocoaPods setup.
 
 ## Audience and success criteria
 
@@ -18,7 +18,7 @@ The audience is a developer working on an Expo or React Native iOS app. A skill 
 
 ## Shared constraints
 
-- Install as personal skills under `${CODEX_HOME:-$HOME/.codex}/skills/`, with one folder per skill. Keep automatic discovery enabled.
+- Place the skills under the repository folder `react-native-skill/`, with one skill folder and one `SKILL.md` per skill. Keep this deliverable Markdown-first; do not install files into a personal skills directory as part of this task.
 - Write skill instructions in English for consistent tool and error-message matching; retain the user's supplied account names, project ID, email placeholder, and build URL only as examples when useful. Do not encode credentials or personal account information as defaults.
 - Treat the supplied commands as examples, not universal instructions. In particular, inspect the project's package manager and `eas.json` before recommending Yarn invocation or adding `eas-cli`; do not add dependencies or scripts unless the task calls for it.
 - Prefer read-only inspection and diagnosis first. Before destructive filesystem changes, external account changes, signing changes, App Store submission, or paid cloud builds, explain the concrete action and obtain the required authorization.
