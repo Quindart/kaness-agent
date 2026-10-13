@@ -76,4 +76,5 @@
 - [x] Run the skill-authoring quick validator on each skill directory; if its PyYAML dependency is unavailable, parse YAML frontmatter with the system Ruby YAML parser and check required fields.
 - [x] Review names and descriptions for distinct activation boundaries and check there are no scaffold placeholders or private credentials.
 - [x] Review the five baseline/with-skill scenario outcomes, checking evidence gathering and authorization boundaries.
+- [x] Close the independent review's Expo Go/client-selection and EAS registration/build authorization findings; rerun the affected scenarios.
 - [x] Review `git diff --check` and the final file list; leave unrelated existing changes untouched.
